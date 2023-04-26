@@ -14,7 +14,7 @@ Warunki licencyjne do projektu: **Open Source**
 
 ## Specyfikacja wymagań
 
-- Identyfikator
+- ID
 - Nazwa
 - Opis
 - Priorytet (1 – wymagane, 2 – przydatne, 3 – opcjonalne)
