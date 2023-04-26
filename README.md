@@ -35,10 +35,7 @@ Warunki licencyjne do projektu: **Open Source**
 
 1. **Kompatybilność**
    - Opis: Użytkownik ma możliwość korzystania z aplikacji zarówno na telefonie jak i komputerze. Aplikacja powinna być responsywna.
-   - Priorytet: 2
-2. **Skalowalność aplikacji**
-   - Opis: Wraz ze wzrostem liczby użytkowników i wymagań oprogramowania aplikacja powinna wprowadzać nowe funkcjonalności.
-   - Priorytet: 2
-3. **Kustomizacja**
+   - Priorytet: 1
+2. **Kustomizacja**
    - Opis: Aplikacja będzie miała dostępne różne motywy kolorystyczne.
    - Priorytet: 3
