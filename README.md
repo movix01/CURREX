@@ -37,6 +37,9 @@ Warunki licencyjne do projektu: **Open Source**
 3. **Wyświetlanie wykresów**
    - Opis: Razem z aktualnym kursem wyświetlany będzie wykres pokazujący wartości z poprzednich kilku dni.
    - Priorytet: 2
+4. **Porównywanie więcej niż dwóch walut jednocześnie
+   - Opis: Dostępna będzie opcja dodania kilku dodatkowych walut do wyboru, by porównywać wiele różnych jednocześnie.
+   - Priorytet: 3
 
 ### Wymagania niefunkcjonalne
 
