@@ -12,6 +12,13 @@ Autorzy:
 
 Warunki licencyjne do projektu: **Open Source**
 
+## Technologie
+
+-Python
+-Flask
+-SQLAlchemy
+-flask-json
+
 ## Specyfikacja wymagań
 
 - ID
