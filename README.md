@@ -16,8 +16,7 @@ Warunki licencyjne do projektu: **Open Source**
 
 - Python
 - Flask
-- SQLAlchemy
-- flask-json
+
 
 ## Specyfikacja wymagań
 
@@ -28,16 +27,16 @@ Warunki licencyjne do projektu: **Open Source**
 
 ### Wymaganie funkcjonalne
 
-1. **Wybieranie walut**
-   - Opis: Funkcja pozwala użytkownikowi na wybieranie interesujących go walut do wymiany.
+1. **Kalkulator walutowy**
+   - Opis: Funkcja pozwala użytkownikowi na przeliczenie wybranej ilości pieniędzy z jednej waluty na drugą.
    - Priorytet: 1
 2. **Wyświetlenie kursu**
-   - Opis: Funkcja pokazuje jaki jest aktualny kurs wybranych walut.
+   - Opis: Funkcja pokazuje jaki jest aktualny kurs wybranej waluty w odniesieniu do wszystkich innych.
    - Priorytet: 1
 3. **Wyświetlanie wykresów**
    - Opis: Razem z aktualnym kursem wyświetlany będzie wykres pokazujący wartości z poprzednich kilku dni.
    - Priorytet: 2
-4. **Porównywanie więcej niż dwóch walut jednocześnie
+4. **Porównywanie więcej niż dwóch walut jednocześnie**
    - Opis: Dostępna będzie opcja dodania kilku dodatkowych walut do wyboru, by porównywać wiele różnych jednocześnie.
    - Priorytet: 3
 
