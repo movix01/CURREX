@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dzisiejszy kurs {{ currency }}</title>
+</head>
+<body>
+    <h1>Dzisiejszy kurs {{ currency }}</h1>
+    <a href="http://127.0.0.1:5000/"><button>Powrót</button></a>
+    <ul>
+        {% for currency, rate in rates.items() %}
+        <li>{{ currency }}: {{ rate }}</li><br>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kalkulator walut</title>
+</head>
+<body>
+    <h1>Kalkulator walut</h1>
+    <form action="/convert" method="POST">
+        <input type="number" step="0.01" name="amount" placeholder="Kwota do przeliczenia">
+        <input type="text" name="from_currency" placeholder="Waluta źródłowa">
+        <input type="text" name="to_currency" placeholder="Waluta docelowa">
+        <input type="submit" value="Przelicz">
+    </form>
+
+    <h1>Dzisiejsze kursy waluty</h1>
+    <form action="/list" method="POST">
+        <input type="text" name="currency" placeholder="Waluta startowa">
+        <input type="submit" value="Wyświetl">
+    </form>
+</body>
+</html>
