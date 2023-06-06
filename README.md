@@ -10,13 +10,13 @@ Autorzy:
 - Adam Burzyński
 
 
-Warunki licencyjne do projektu: **MIT**
+Projektu można używać zgodnie z warunkami licencji **MIT**
 
 ## Technologie
 
 - Python
 - Flask
-
+- Bulma
 
 ## Specyfikacja wymagań
 
