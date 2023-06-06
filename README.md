@@ -10,7 +10,7 @@ Autorzy:
 - Adam Burzyński
 
 
-Warunki licencyjne do projektu: **Open Source**
+Warunki licencyjne do projektu: **MIT**
 
 ## Technologie
 
