@@ -9,14 +9,13 @@ Autorzy:
 - Michał Piszczek
 - Adam Burzyński
 
-
-Warunki licencyjne do projektu: **Open Source**
+Projektu można używać zgodnie z warunkami licencji **MIT**
 
 ## Technologie
 
 - Python
 - Flask
-
+- Bulma
 
 ## Specyfikacja wymagań
 
