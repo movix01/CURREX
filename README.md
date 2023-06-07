@@ -1,6 +1,7 @@
 # CURREX
 
-Platforma pozwalająca na łatwe porównywanie aktualnych kursów walut.
+Platforma pozwalająca na serię prostych operacji na walutach takich jak porównywarka walut. Aplikacja została stworzona z użyciem publicznego API
+dostarczanego przez serwis https://v6.exchangerate-api.com.
 
 ## Prawa autorskie
 
