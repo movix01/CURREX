@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walut</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+    <nav class="navbar has-background-white-ter">
+        <div class="navbar-barnd">
+            <a class="navbar-item">
+                <img src="static/logo_currex.png" alt="site logo" style="max-height: 70px">
+            </a>
+        </div>
+    </nav>
+    <div class="section pt-4 pb-0">
+        <nav class="breadcrumb has-bullet-separator">
+            <ul class="container">
+            <li class="is-active"><a>Strona główna</a></li>
+        </ul>
+    </nav>
+    </div>
+    <section class="section has-background-white">
+        <container class="container">
+            <div class="columns">
+                <div class="column">
+                    <h1 class="is-size-3 has-text-weight-bold has-text-centered has-text-grey-darker py-2">Kalkulator
+                        walut</h1>
+                    <form action="/convert" method="POST" class="has-text-centered">
+                        <input type="number" step="0.01" name="amount" placeholder="Kwota do przeliczenia">
+                        <input type="text" name="from_currency" placeholder="Waluta źródłowa">
+                        <input type="text" name="to_currency" placeholder="Waluta docelowa">
+                        <h2 class="py-2"><input type="submit" value="Przelicz" class="button is-primary"></h2>
+                    </form>
+                </div>
+                <div class="column">
+                    <h1 class="is-size-3 has-text-weight-bold has-text-centered has-text-grey-darker py-2">Dzisiejsze
+                        kursy
+                        waluty</h1>
+                    <form action="/list" method="POST" class="has-text-centered">
+                        <input type="text" name="currency" placeholder="Waluta startowa">
+                        <h2 class="py-2"><input type="submit" value="Wyświetl" class="button is-primary"></h2>
+                    </form>
+                </div>
+            </div>
+        </container>
+        <container class="container">
+            <div class="columns">
+                <div class="column is-3"></div>
+                <div class="column">
+                    <img src="static/wykrespog.png" alt="przykladowy wykres">
+                </div>
+                <div class="column is-3"></div>
+            </div>
+        </container>
+
+    </section>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>Projekt open-source'owy wykonany przez studentów Uniwersytetu Gdańskiego:</p>
+            <p>Michała P.</p>
+            <p>Adama B.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
